@@ -1,0 +1,1 @@
+<h1>Hola <?php echo $nombre ?> soy la vista 2</h1>

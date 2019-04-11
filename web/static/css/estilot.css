@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+     box-sizing: border-box;
+}
+
+.tabla{
+    width: 80%;
+    height:80% ;
+    position: relative;
+    color: black;
+    border: none;
+}
+.outer_div{
+    width: auto; 
+    color: black;
+     
+}
+.img{
+    background: url(../img/1.jpg)no-repeat center center fixed; 
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+#tabla{
+    border-color: solid #337ab7;
+    border-collapse: collapse;
+    color: rgb(10, 10, 10);
+    margin:auto;
+    position: relative;
+    background-color: rgb(49, 128, 128);
+   
+}
+
+td,th{
+    border-color: solid #337ab7;
+    position: relative;
+    color: black;
+}
+.tabla td {
+    border-color: solid #337ab7;
+    padding: 10px;  
+    position: relative;
+    color: black;
+    border: none;
+    
+}
+table tr:hover{
+    background: rgb(0, 225, 255);
+    position: relative;
+}
+table td:hover{
+ background: rgb(19, 182, 247);
+ color: rgb(3, 3, 3);
+ position: relative;
+}
+
+
